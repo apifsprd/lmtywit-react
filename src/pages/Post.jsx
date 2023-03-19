@@ -37,7 +37,7 @@ const Post = () => {
       />
       <p className="text-xs text-center">Sumber : {post[0].imgcaption}</p>
       <div
-        className="my-5 font-['Source_Serif_Pro'] text-justify space-y-5 tracking-tight text-lg"
+        className="my-5 font-serif text-justify space-y-5 tracking-tight text-lg"
         dangerouslySetInnerHTML={{ __html: `${post[0].body}` }}
       />
       <div>

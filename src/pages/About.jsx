@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <h1 className="font-bold text-3xl mb-5">LMTYWIT is ..</h1>
-      <p className="text-justify space-y-5 tracking-tight font-['Source_Serif_Pro']">
+      <p className="text-justify space-y-5 tracking-tight font-serif">
         LMTYWIT stands for Let Me Tell You What I Think, starting from a reading
         into an anxiety to want to write and tell everything that I think is
         interesting to discuss, trying to have an opinion on the events that

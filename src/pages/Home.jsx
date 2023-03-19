@@ -19,9 +19,7 @@ function Home() {
           alt=""
         />
         <Link to={`/post/${heroPost.slug}`} className="hover:underline">
-          <h1 className="font-['Source_Serif_Pro']  text-2xl">
-            {heroPost.title}
-          </h1>
+          <h1 className="font-serif  text-2xl">{heroPost.title}</h1>
         </Link>
         <p>
           {heroPost.author} &middot; {heroPost.date}
@@ -35,9 +33,7 @@ function Home() {
           <div className="col-span-2 flex items-center">
             <div>
               <Link to={`/post/${post.slug}`} className="hover:underline">
-                <h1 className="font-['Source_Serif_Pro'] text-lg">
-                  {post.title}
-                </h1>
+                <h1 className="font-serif text-lg">{post.title}</h1>
               </Link>
               <p className="text-xs">
                 {post.author} &middot; {post.date}
